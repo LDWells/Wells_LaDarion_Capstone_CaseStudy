@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckoutTest"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="116.943">
+    <properties></properties>
+
+
+
+            <testcase
+                name="payment_mode_check_test"
+                time="28.183"
+                classname="org.example.testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="apply_for_discount_test"
+                time="62.034"
+                classname="org.example.testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="checkout_negative_test"
+                time="8.147"
+                classname="org.example.testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="checkout_positive_test"
+                time="18.579"
+                classname="org.example.testcases.CheckoutTest">
+            </testcase>
+</testsuite>

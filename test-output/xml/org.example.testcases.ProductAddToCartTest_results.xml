@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddToCartTest"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="92.249">
+    <properties></properties>
+
+
+
+            <testcase
+                name="remove_from_cart_test"
+                time="13.928"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+            <testcase
+                name="add_to_cart_test"
+                time="39.174"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+            <testcase
+                name="verify_quantity_test"
+                time="3.562"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+            <testcase
+                name="refresh_page_test"
+                time="11.546"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+            <testcase
+                name="increase_quantity_test"
+                time="8.599"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+            <testcase
+                name="verify_price_test"
+                time="15.440"
+                classname="org.example.testcases.ProductAddToCartTest">
+            </testcase>
+</testsuite>

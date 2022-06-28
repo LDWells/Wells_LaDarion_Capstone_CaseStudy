@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegistrationTest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="141.418">
+    <properties></properties>
+
+
+
+            <testcase
+                name="email_validation_test"
+                time="42.142"
+                classname="org.example.testcases.RegistrationTest">
+            </testcase>
+            <testcase
+                name="negative_registration_test"
+                time="22.793"
+                classname="org.example.testcases.RegistrationTest">
+            </testcase>
+            <testcase
+                name="user_registration_test"
+                time="3.548"
+                classname="org.example.testcases.RegistrationTest">
+            </testcase>
+            <testcase
+                name="registration_with_negative_password_test"
+                time="27.706"
+                classname="org.example.testcases.RegistrationTest">
+            </testcase>
+            <testcase
+                name="verify_new_user_registration_test"
+                time="45.229"
+                classname="org.example.testcases.RegistrationTest">
+            </testcase>
+</testsuite>

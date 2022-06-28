@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" thread-count="1">
+    <test name="RegistrationTest">
+        <classes>
+            <class name="org.example.testcases.RegistrationTest"></class>
+        </classes>
+    </test>
+ <test name="LoginTest">
+        <classes>
+            <class name="org.example.testcases.LoginTest"></class>
+        </classes>
+   </test>
+
+    <test name="SearchTest">
+        <classes>
+            <class name="org.example.testcases.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="AddToCartTest">
+    <classes>
+        <class name="org.example.testcases.ProductAddToCartTest"></class>
+    </classes>
+</test>
+    <test name="CheckoutTest">
+        <classes>
+            <class name="org.example.testcases.CheckoutTest"></class>
+        </classes>
+    </test>
+
+</suite>
