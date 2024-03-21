@@ -109,44 +109,6 @@ public class CheckoutTest {
         driver.navigate().to("https://www.alexandnova.com/10856759353/checkouts/ee3a8e3a4ffd6be2c706e2e4bb154580?skip_shopify_pay=true&locale=en");
         Thread.sleep(15000);
 
-        /*
-        //testing paypal
-        //checkoutPage.payWithPaypal();
-         driver.findElement(By.className("paypal-button-label-container")).click();
-        Thread.sleep(7000);
-        //navigates to paypal popup
-        // driver.navigate().to("https://www.paypal.com/checkoutnow?locale.x=en_US&fundingSource=paypal&sessionID=uid_d8eb55cb8d_mty6mdk6mdi&buttonSessionID=uid_e3e90667a3_mty6mta6mdi&env=production&fundingOffered=paypal&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=0aba00466c&version=min&token=EC-5CJ775373A863743F&xcomponent=1");
-        driver.get("https://www.paypal.com/checkoutnow?locale.x=en_US&fundingSource=paypal&sessionID=uid_d8eb55cb8d_mty6mdk6mdi&buttonSessionID=uid_e3e90667a3_mty6mta6mdi&env=production&fundingOffered=paypal&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=0aba00466c&version=min&token=EC-5CJ775373A863743F&xcomponent=1");
-        Thread.sleep(10000);
-        File paypal = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(paypal, new File("src/test/resources/screenshots/paypal.png"));
-        driver.navigate().to("https://www.alexandnova.com/10856759353/checkouts/ee3a8e3a4ffd6be2c706e2e4bb154580?skip_shopify_pay=true&locale=en");
-        Thread.sleep(15000);
-
-
-        // checkoutPage.payWithGooglePay();
-        driver.findElement(By.className("kEwctmM5pguv6XkPR8mx6")).click();
-        Thread.sleep(5000);
-        File googlePay = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(googlePay, new File("src/test/resources/screenshots/googlePay.png"));
-        driver.navigate().to("https://www.alexandnova.com/10856759353/checkouts/ee3a8e3a4ffd6be2c706e2e4bb154580?skip_shopify_pay=true&locale=en");
-        Thread.sleep(10000);
-
-
-        //checkoutPage.payWithFacebookPay();
-        driver.findElement(By.className("_1LP9NPTft85QosIXd3_zOV _3G6VJhJYno-AX3-X38f1TA _2zarRkvJ2j83NID3Q3t0Ix _24a_n1dXCrAWpcF2hfyvI5")).click();
-        Thread.sleep(2500);
-        //navigates to Facebook popup
-        driver.navigate().to("https://www.facebook.com/login/?next=%2Fpayments%2Foffsite%2Fcheckout%2F%3Fopener%3Dhttps%253A%252F%252Fwww.alexandnova.com%26receiver_id%3DSHOPIFY_LIVE%253A%253A10856759353%26request_id%3Dc55cd1f6-1b9c-4e95-a240-14ea9051ca4e%26is_deskt%3D1%26is_login_redirect%3D1%26supported_container_types%255B0%255D%3Dbasic-card-v1%26mode%3DLIVE%26session_id%3Dupl_1656178651715_bc047609-c888-4fe7-9040-2b3f74609faa&no_next_msg&hide_registration=1");
-        Thread.sleep(5000);
-        File facebookPay = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(facebookPay, new File("src/test/resources/screenshots/facebookPay.png"));
-        driver.navigate().to("https://www.alexandnova.com/10856759353/checkouts/ee3a8e3a4ffd6be2c706e2e4bb154580?skip_shopify_pay=true&locale=en");
-        Thread.sleep(10000);
-
-
-         */
-
 
     }
 
